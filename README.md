@@ -51,7 +51,7 @@ In the **Execute SQL** tab, do the following:
 6. Increase the points of **Basma** because she solved a new exercise
 7. Decrease the points of **Alex** because he's late today
 8. Remember to update **answers.sh** file
-9. Commit ("Basic Queries") 🔑🔑🔑
+9. Commit ("Basic Queries") 
 
 ### Creating Table
 
@@ -68,7 +68,7 @@ In the **Execute SQL** tab, do the following:
 10. Copy Layal's data from **students** to **graduates**
 11. Add the graduation date previously mentioned to Layal's record in **graduates**
 12. Remove Layal's record from **students**
-13. Commit ("Creating Table") 🔑🔑🔑🔑
+13. Commit ("Creating Table") 
 
 ### Joins
 
@@ -88,7 +88,7 @@ In the **Execute SQL** tab, do the following:
 14. Produce a table that contains, for each employee, his/her name, company name, and company date.
 15. Find the name of **employees** that work in companies made before 2000.
 16. Find the name of company that has a graphic designer.
-17. Commit ("Joins") 🔑🔑🔑🔑🔑
+17. Commit ("Joins") 
 
 ### Count & Filter
 
@@ -101,4 +101,4 @@ In the **Execute SQL** tab, do the following:
 20. Find the number of students that have 500 points
 21. Find the names of students that contains 's'
 22. Find all students based on the decreasing order of their points
-23. commit ("Count & Filter") 🔑🔑
+23. commit ("Count & Filter") 
