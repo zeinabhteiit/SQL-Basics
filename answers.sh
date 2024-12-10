@@ -41,6 +41,26 @@ FROM employees
 WHERE employees.Role = 'Graphic Designer';
 
 
+SELECT name , Points
+FROM students
+where Points = (select MAX(points) FROM students);
+
+SELECT AVG(Points) AS averagepoints
+FROM students;
+
+SELECT COUNT(*) AS Numberofstudents 
+FROM students
+WHERE Points = 500;
+
+SELECT name
+FROM students
+WHERE name LIKE '%s%';
+
+SELECT *
+FROM students
+ORDER BY Points desc;
+
+
  
 
 
