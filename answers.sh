@@ -15,18 +15,17 @@ Gender TEXT,
 Points INTEGER,
 Graduation TEXT
 );
-CREATE TABLE graduates (
-ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-Name TEXT NOT NULL UNIQUE,
-Age INTEGER,
-Gender TEXT,
-Points INTEGER,
-Graduation TEXT
-);
+INSERT INTO graduates (name, Age, Gender, Points)
+SELECT name, Age, Gender, Points
+FROM students
+WHERE name='Layal';
+
 UPDATE graduates
 SET Graduation ='08/09/2018'
 WHERE name ='Layal';
 
+DELETE FROM students
+WHERE name='layal';
 
 
 
