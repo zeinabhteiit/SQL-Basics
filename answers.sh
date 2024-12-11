@@ -27,17 +27,20 @@ WHERE name ='Layal';
 DELETE FROM students
 WHERE name='layal';
 
-SELECT employees.name AS Employeename , employees.Company AS Companyname , companies.date AS Companydate
-FROM employees JOIN companies
+SELECT employees.name AS Employee_name , companies.name AS Company_name , companies.date AS Company_date
+FROM employees 
+JOIN companies
 ON employees.Company = companies.Name;
 
-SELECT employees.name AS employeename
+SELECT employees.name AS employee_name
 FROM employees JOIN companies
 ON employees.Company = companies.name
 WHERE companies.Date <2000;
 
-SELECT DISTINCT employees.Company AS Companyname
-FROM employees 
+SELECT companies.name AS Company_name
+FROM employees
+JOIN companies
+ON employees.Company = companies.name
 WHERE employees.Role = 'Graphic Designer';
 
 
